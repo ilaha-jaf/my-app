@@ -1,0 +1,83 @@
+header{
+    background-color: cornflowerblue;
+    height: 45px;
+}
+h1{
+    color: antiquewhite;
+    margin-left: 40px;
+}
+main{
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.movie{
+    display: flex;
+   background-color: #F0ECE5; 
+   margin-bottom: 20px;
+   margin-top: 30px;
+   width: 450px;
+height: 350px;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+}
+div .basket{
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+img{
+width: 200px;
+height: 250px;
+margin-top: 50px;
+}
+.about{
+   margin-top: 100px;
+   margin-left: 20px;
+}
+.movies-container button{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: transparent;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.search-input{
+    margin-right: 200px;
+}
+
+.list{
+
+    border-style: solid;
+border-width: thin;
+border-color: black;
+
+    padding: 20px;
+    margin-top: 30px;
+    width: 300px;
+    height:fit-content;
+}
+#newName{
+    width: 260px;
+}
+.list div p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list div p img{
+margin-top: 0px;
+}

@@ -1,0 +1,38 @@
+.new-list li{
+    list-style-type: none 
+}
+h4{
+    background-color: rgb(147, 178, 234);
+    padding: 10px;
+}
+.movie-info{
+    display: flex;
+    background-color: blanchedalmond;
+padding-left: 40px;
+padding-bottom: 10px;
+padding-top: 10px;
+gap: 60px;
+}
+.movie-info img{
+ border-radius: 50%;
+ width: 60px;
+ height: 60px;
+ margin-top: 0;
+}
+.list2{
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+}
+.closeBasket{
+    background-color:cornflowerblue;
+    padding: 10px;
+    border-radius: 5px;
+    border-color: transparent;
+    color: aliceblue;
+    font-size: 15px;
+    margin-top: 10px;
+}
