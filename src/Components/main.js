@@ -60,14 +60,22 @@ function Main() {
             }
           };
         
-          const addToMovieList = movieTitle => {
+         const addToMovieList = movieTitle => {
             if (!movieList.includes(movieTitle)) {
-              setMovieList((prevList) => [...prevList, movieTitle]);
+              setMovieList(prevList => [...prevList, movieTitle]);
               
+              fetch(`http://www.omdbapi.com/?t=${encodeURIComponent(movieTitle)}&apikey=da8fb669`)
+                .then(res => res.json())
+                .then(data => {
+                  if (data.Response === 'True') {
+                    setMovieData(prevData => [...prevData, data]);
+                  }
+                })
+                .catch(error => {
+                  console.error('Error fetching movie details:', error);
+                });
             } else {
-
-      
-       
+        
             }
           };
         
